@@ -1,0 +1,32 @@
+Link para o Dataset: https://www.kaggle.com/datasets/samlearner/letterboxd-movie-ratings-data
+
+As bases utilizadas foram a movie_data.csv e a ratings_export.csv.
+
+A movie_data.csv possui os dados de todos os filmes representados nos dados de classificação, enriquecidos com dados da API TMDB. Isso compõe um conjunto muito grande, mas incompleto, de todos os filmes no Letterboxd, e possui as seguintes colunas:
+
+_id
+genres
+image_url
+imdb_id
+imdb_link
+movie_id
+movie_title
+original_language
+overview
+popularity
+production_countries
+release_date
+runtime
+spoken_languages
+tmdb_id
+tmdb_link
+vote_average
+vote_count
+year_released
+
+A ratings_export.csv é um conjunto de pares filme-usuário com um valor de classificação associado. As classificações são baseadas nas estrelas dadas, com cada incremento de meia estrela mapeado para um valor de 1 a 10, e possui as colunas abaixo:
+
+_id
+movie_id
+rating_val
+user_id
